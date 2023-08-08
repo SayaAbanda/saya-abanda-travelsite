@@ -1,0 +1,100 @@
+.hero {
+    width: 100%;
+}
+
+.hero__container {
+    height: 58vh;
+    background-color: #FEFAF5;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem 7rem;
+    margin: 0 auto;
+}
+
+.hero__info {
+    width: 60%;
+    padding:0 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-self: center;
+    color: #335576;
+}
+
+.hero__heading {
+    width: 75%;
+    margin: 0.7rem;
+    font-size: 3.3rem; 
+}
+
+.hero__txt {
+    font-size: 1.4rem;
+    margin: 0.7rem;
+}
+
+.hero__btn {
+    background-color: #DB7A4E;
+    color: #FFFFFF;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    width: 25%;
+    text-decoration: none;
+    margin: 0.7rem;
+}
+
+.hero__img-container{
+    margin: 3rem;
+    align-self: center;    
+}
+
+.hero__img {
+    height: 35rem;
+}
+
+
+.recommendations {
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding: 4rem 7rem;
+}
+
+.recommendations__container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    justify-content: center;
+}
+
+.recommendations__heading {
+    padding: 0 3rem; 
+}
+
+.recommendations__cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 3rem 11rem;
+}
+
+.recommendations__card {
+    position: relative;
+}
+
+.recommendations__page-link {
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    font-size: 2.2rem;
+    left: 14rem;
+    bottom: 2rem;
+}
+
+.recommendations__card img {
+    height: 37rem;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 0.5rem;
+}
