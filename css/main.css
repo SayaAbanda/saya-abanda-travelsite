@@ -22,7 +22,7 @@
     color: #335576;
 }
 
-.hero__heading {
+.hero__title {
     width: 75%;
     margin: 0.7rem;
     font-size: 3.3rem; 
@@ -61,7 +61,7 @@
     padding: 4rem 7rem;
 }
 
-.recommendations__container {
+.recommendations__section {
     display: flex;
     flex-direction: column;
     margin: 2rem;
@@ -72,7 +72,7 @@
     padding: 0 3rem; 
 }
 
-.recommendations__cards-container {
+.recommendations__container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;

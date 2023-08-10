@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <title>Travel Site</title>
 </head>
 <body>
     <header>
         <section>
-          <nav class="nav">
+          <div class="nav">
             <section class="nav__logo">
-              <h1 class="nav__title">
+              <h1 class="nav__heading">
                 <a class="nav__link" href="./index.html">Travel Site</a>
               </h1>
             </section>
@@ -30,13 +32,14 @@
                 </li>
               </ul>
             </section> 
-          </nav> 
+        </div> 
         </section>    
       </header>
+      <!-- Hero Section -->
       <section class="hero">
         <section class="hero__container">
           <section class="hero__info">
-            <h2 class="hero__heading">Travelling Comes With Endless Discoveries
+            <h2 class="hero__title">Travelling Comes With Endless Discoveries
             </h2>
             <p class="hero__txt">
               Don't let your dreams be just dreams. Experience the world by booking a <br>vacation with us now.  
@@ -48,17 +51,18 @@
           </section>
         </section>
       </section>
+      <!-- Main page -->
       <main>
         <section class="recommendations">
-          <section class="recommendations-container">
+          <section class="recommendations__section">
             <h3 class="recommendations__heading">Recommendations</h3>
-            <section class="recommendations__cards-container">
+            <section class="recommendations__container">
               <article class="recommendations__card">
-                <a href="./pages/hawaii.html"><img src="./assets/images/hawaii.jpg" alt="palm tree in hawaii"></a> 
+                <a href="./pages/hawaii.html"><img src="./assets/images/hawaii.jpg" alt="Chilling day in Hawaii"></a> 
                 <a class="recommendations__page-link" href="./pages/hawaii.html">Hawaii</a>
               </article>
               <article class="recommendations__card">
-                <a href="./pages/iceland.html"><img src="./assets/images/iceland.jpg" alt="river in iceland"></a>
+                <a href="./pages/iceland.html"><img src="./assets/images/iceland.jpg" alt="Waterfall in iceland"></a>
                 <a class="recommendations__page-link" href="./pages/iceland.html">Iceland</a>
               </article>
               <article class="recommendations__card">
@@ -69,10 +73,11 @@
           </section>
         </section>
       </main>
+      <!-- Footer section -->
       <footer class="footer">
-        <section class="footer__container">
+        <section class="footer__section">
           <section class="footer__section-container">
-            <h3 class="footer__section-heading">Contact</h3>
+            <h3 class="footer__heading">Contact</h3>
             <section class="footer__section-info">
               <p class="footer__info-heading">email</p>
               <p class="footer__info-txt">info@travelsite.com</p>
